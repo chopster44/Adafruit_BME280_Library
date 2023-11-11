@@ -1,7 +1,10 @@
-# Adafruit BME280 Library [![Build Status](https://github.com/adafruit/Adafruit_BME280_Library/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/adafruit/Adafruit_BME280_Library/actions)[![Documentation](https://github.com/adafruit/ci-arduino/blob/master/assets/doxygen_badge.svg)](http://adafruit.github.io/Adafruit_BME280_Library/html/index.html)
+# Adafruit BME280 Library 
 
+## Modifications ##
+Replaced `sensor_t` with `adafruit_sensor_t`, reasons can be found in the README [here](https://github.com/chopster44/Adafruit_Sensor).
 
-<a href="http://www.adafruit.com/products/2652"><img src="./assets/board.jpg" width="500"/></a>
+I also modified this README.
+***
 
 This is a library for the Adafruit BME280 Humidity, Barometric Pressure + Temp sensor
 
@@ -14,7 +17,7 @@ Adafruit invests time and resources providing this open source code, please supp
 To install, use the Arduino Library Manager and search for "Adafruit BME280" and install the library.
 
 ## Dependencies
- * [Adafruit Unified Sensor Driver](https://github.com/adafruit/Adafruit_Sensor)
+ * [Adafruit Unified Sensor Driver](https://github.com/chopster44/Adafruit_Sensor)
 
 # Contributing
 
@@ -48,6 +51,7 @@ Note that the formatting output by `clang-format` is what the automated formatti
 
 ## About this Driver
 Written by Ladyada for Adafruit Industries.
+Modified by Chopster44
 
 BSD license, check license.txt for more information
 
