@@ -51,6 +51,7 @@ Note that the formatting output by `clang-format` is what the automated formatti
 
 ## About this Driver
 Written by Ladyada for Adafruit Industries.
+
 Modified by Chopster44
 
 BSD license, check license.txt for more information
