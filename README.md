@@ -1,4 +1,6 @@
 # Adafruit BME280 Library 
+## Archive note
+This is now archived because I have replaced it in the project I needed it for. And I only created this because of a very obscure issue I had.
 
 ## Modifications ##
 Replaced `sensor_t` with `adafruit_sensor_t`, reasons can be found in the README [here](https://github.com/chopster44/Adafruit_Sensor).
